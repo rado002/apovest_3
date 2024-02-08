@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Apovest</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <!--
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <!-- <script type="module" src="script.js"></script> -->
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-      <a href="/page3.html">Vaare apotek</a>
-      <a href="/page3.html">Prosjekter</a>
-      <a href="/page4.html">Kontakt</a>
-      
+    <div class="side-banner">
+      <a href="index.html">
+
+      </a>
+  </div>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Apovest</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Hjem <span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="/page2.html">Other page</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Page 2</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="apotekDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Våre apotek
+            </a>
+            <div class="dropdown-menu" aria-labelledby="apotekDropdown">
+              <a class="dropdown-item" href="/apotek1.html">SANDVIKEN</a>
+              <a class="dropdown-item" href="/apotek2.html">AMFI OS</a>
+              <a class="dropdown-item" href="/apotek3.html">SUND</a>
+              <a class="dropdown-item" href="/apotek1.html">FISKETORGET</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/prosjekter.html">Prosjekter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/jobbe.html">Jobb hos oss</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+
+    <!-- Logo positioned on the right side of the screen -->
+    <img src="img/logo_1.png" alt="Apovest banner: 4 happy capsules" class="fixed-logo">
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
 

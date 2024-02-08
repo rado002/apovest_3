@@ -44,3 +44,12 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.fixed-logo {
+  position: fixed; /* Fixed positioning relative to the viewport */
+  right: 20px; /* Distance from the right edge of the viewport */
+  top: 20px; /* Distance from the top of the viewport */
+  height: 100px; /* Adjust based on your logo's size */
+  width: auto; /* Maintain the logo's aspect ratio */
+  z-index: 1050; /* Ensures the logo is above most other elements */
+}
