@@ -62,10 +62,10 @@
             Våre apotek
           </a>
           <div class="dropdown-menu" aria-labelledby="apotekDropdown">
-            <a class="dropdown-item" href="SANDVIKEN.php">SANDVIKEN</a>
-            <a class="dropdown-item" href="AMFIOS.php">AMFI OS</a>
-            <a class="dropdown-item" href="SUND.php">SUND</a>
-            <a class="dropdown-item" href="FISKETORGET.php">FISKETORGET</a>
+            <a class="dropdown-item" href="SANDVIKEN.php">Sandviken</a>
+            <a class="dropdown-item" href="AMFIOS.php">Amfi OS</a>
+            <a class="dropdown-item" href="SUND.php">Sund</a>
+            <a class="dropdown-item" href="FISKETORGET.php">Fisketorget</a>
           </div>
         </li>
         <li class="nav-item dropdown">

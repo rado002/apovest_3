@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap')
-
-
 
 html {
   height: 100%;
@@ -18,12 +15,15 @@ html {
   font-family: 'Great Vibes', cursive;
 
   /* font-family: 'Lugrasimo', cursive; */
-
-}
-
-nav {
   font-size: 2rem;
 }
+
+.dropdown-item {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.7rem;
+}
+
+
 
 .Text_1 {
   font-family: "Inter", sans-serif;
@@ -32,4 +32,37 @@ nav {
 .Text_grey {
   font-family: "Inter", sans-serif;
   color: #909090;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* This will space out the items evenly */
+  align-items: stretch; /* This will make sure all items stretch to fill the container */
+}
+
+.flex-item {
+  width: calc(50% - 10px); /* Assuming you want some space between the images; adjust as necessary */
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.flex-item img {
+  width: 650px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distorting its aspect ratio */
+
+  /* width: 100%;  */
+  /* Make images fill the div */
+  /* height: auto;  */
+  /* Keep image aspect ratio */
+   /* display: block;  */
+  /* Remove any default margins */
+}
+
+@media (max-width: 600px) { /* Adjust the breakpoint as needed */
+  .flex-item {
+      width: 100%; /* Each item takes full width on smaller screens */
+      margin-bottom: 10px; /* Adjust spacing for smaller screens if desired */
+  }
 }
