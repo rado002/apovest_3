@@ -38,6 +38,7 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
+
 }
 
 h1 {
@@ -71,3 +72,5 @@ h1 {
   font-size: 24px; /* Adjust based on your design */
   font-weight: bold; /* Makes the text bold */
 }
+
+
