@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>HERREAPOTEKET</title>
+  <title>ApoVest</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,13 +14,13 @@
 
 <body>
   <div class="side-banner">
-    <a href="index.html">
+    <a href="index.php">
     </a>
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light" img src="img/logo_1.png"
     alt="Apovest banner: 4 happy capsules" class="fixed-logo">
-    <a class="navbar-brand" href="index.html"></a>
+    <a class="navbar-brand" href="index.php"></a>
     <img src="img/logo_1.png" alt="Apovest banner: 4 happy capsules" class="fixed-logo">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Hjem <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.php">Hjem <span class="sr-only">(current)</span></a>
         </li>
 
 
@@ -50,10 +50,10 @@
             Våre apotek
           </a>
           <div class="dropdown-menu" aria-labelledby="apotekDropdown">
-            <a class="dropdown-item" href="SANDVIKEN.html">SANDVIKEN</a>
-            <a class="dropdown-item" href="AMFIOS.html">AMFI OS</a>
-            <a class="dropdown-item" href="SUND.html">SUND</a>
-            <a class="dropdown-item" href="FISKETORGET.html">FISKETORGET</a>
+            <a class="dropdown-item" href="SANDVIKEN.php">SANDVIKEN</a>
+            <a class="dropdown-item" href="AMFIOS.php">AMFI OS</a>
+            <a class="dropdown-item" href="SUND.php">SUND</a>
+            <a class="dropdown-item" href="FISKETORGET.php">FISKETORGET</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -62,37 +62,19 @@
             Nettapotek
           </a>
           <div class="dropdown-menu" aria-labelledby="apotekDropdown">
-            <a class="dropdown-item" href="HERREAPOTEKET.html">Herreapoteket.no</a>
-            <a class="dropdown-item" href="DAMEAPOTEKET.html">Dameapoteket.no</a>
+            <a class="dropdown-item" href="HERREAPOTEKET.php">Herreapoteket.no</a>
+            <a class="dropdown-item" href="DAMEAPOTEKET.php">Dameapoteket.no</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="prosjekter.html">Prosjekter</a>
+          <a class="nav-link" href="prosjekter.php">Prosjekter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="jobbhososs.html">Jobb hos oss</a>
+          <a class="nav-link" href="jobbhososs.php">Jobb hos oss</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="kontakt.html">Kontakt</a>
+          <a class="nav-link" href="kontakt.php">Kontakt</a>
         </li>
       </ul>
     </div>
   </nav>
-
-  <main>
-
-
-    <div class="box d-flex justify-content-center align-items-center">
-      <a href="https://www.herreapoteket.no" target="_blank" class="text-decoration-none text-reset"
-        style="font-size: 24px; font-weight: bold;">HERREAPOTEKET</a>
-    </div>
-
-    <div class="footer">
-      <img src="img/logo_2.jpg">
-    </div>
-
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-</html>
