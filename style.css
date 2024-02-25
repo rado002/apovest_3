@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap')
+
+
+
 html {
   height: 100%;
   width: 100%;
+}
+
+
+.lugrasimo-regular {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  font-family: 'Great Vibes', cursive;
+
+  /* font-family: 'Lugrasimo', cursive; */
+
+}
+
+nav {
+  font-size: 2rem;
+}
+
+.Text_1 {
+  font-family: "Inter", sans-serif;
+}
+
+.Text_grey {
+  font-family: "Inter", sans-serif;
+  color: #909090;
 }

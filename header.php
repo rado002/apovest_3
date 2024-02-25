@@ -6,17 +6,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="styles.css" /> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lugrasimo&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&family=Lugrasimo&display=swap" rel="stylesheet">
+
   <script src="jquery-3.7.1.min.js"></script>
   <script src="script.js"></script>
+
 </head>
 
 <body>
-  <div class="side-banner">
-    <a href="index.php">
-    </a>
-  </div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light" img src="img/logo_1.png"
     alt="Apovest banner: 4 happy capsules" class="fixed-logo">
